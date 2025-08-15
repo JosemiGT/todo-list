@@ -3,6 +3,7 @@ import { TodoState, TodoType } from "../types.d";
 export const TodoMock : TodoType[] = [
     {
         id: "0",
+        title: "Tarea de prueba 0",
         description: "Test tarea 0",
         createDate: new Date(),
         dueDate: null,
@@ -13,6 +14,7 @@ export const TodoMock : TodoType[] = [
     },
     {
         id: "1",
+        title: "Tarea de prueba 1",
         description: "Test tarea 1",
         createDate: new Date(),
         dueDate: new Date(),
